@@ -11,3 +11,6 @@ Basic commands:
 systemctl enable Infrared.service 
 
 systemctl start Infrared.service
+
+
+Credit: https://github.com/haveachin/infrared
