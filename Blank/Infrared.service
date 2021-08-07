@@ -1,0 +1,13 @@
+[Unit]
+Description=Infrared Proxy Service
+After=network.target
+
+[Service]
+Type=simple
+User=*user*
+WorkingDirectory=*working Dir*
+ExecStart=*location on the infrared binary*
+Restart=allways
+
+[Install]
+WantedBy=multi-user.target
