@@ -4,8 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
+WorkingDirectory=/home/ubuntu/Infrared
 ExecStart=/home/ubuntu/Infrared-systemd/infrared
-Restart=on-failure
+Restart=allways
 
 [Install]
 WantedBy=multi-user.target
